@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+        <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+        <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <nav class="navbar fixed-top navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a href="/" class="logo"
+              ><img
+                class="logo-img"
+                src="./images/main-logo.png"
+                alt="логотип сайта"
+                width="100px"
+                height="45px"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Catering Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Special Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Rentals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Newst Flyers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacts</a>
+                </li>
+              </ul>
+              <span class="navbar-text">
+                Navbar text with an inline element
+              </span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="hero__page">
+        <h1 class="hero__title">
+          data-aos="zoom-out">We are open <br />Monday- Friday 9am-7pm<br />
+          Saturday 8am-6pm
+        </h1>
+      </section>
+      <!--What we do -->
+      <section class="project section">
+        <div class="container">
+          <h2 class="activity__title">What can you find in our store?</h2>
+          <ul class="activity__list list">
+            <li class="activity__item">
+              <div class="activity__base">
+                <!-- <picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="./images/deli.jpg 1x, ./images/deli.jpg 2x"
+                  /> -->
+                  <img
+                    src="./images/deli.jpg " width="365px" height="280px"
+                    alt="Людина пише код"
+                  />
+                </picture>
+                <div class="activity__inform">
+                  <p class="activity__text">DELI <i class="fa-solid fa-circle-right"></i></p>
+                </div>
+              </div>
+            </li>
+            <li class="activity__item">
+              <div class="activity__base">
+                <!-- <picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./images/screen/screen2-1x.jpg 1x,
+                      ./images/screen/screen2-2x.jpg 2x
+                    "
+                  /> -->
+                  <img
+                    src="./images/buthcer-bg.jpg" width="365px" height="280px"
+                    alt="Людина вибирає додаток"
+                  />
+                </picture>
+                <div class="activity__inform">
+                  <p class="activity__text">BUTCHER SHOP <i class="fa-solid fa-circle-right"></i></p>
+                </div>
+              </div>
+            </li>
+            <li class="activity__item">
+              <div class="activity__base">
+                <!-- <picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./images/screen/screen3-1x.jpg 1x,
+                      ./images/screen/screen3-2x.jpg 2x
+                    "
+                  /> -->
+                  <img
+                    src="./images/bk-bg.jpg" width="365px" height="280px"
+                    alt="Людина підбирає колір"
+                  />
+                </picture>
+                <div class="activity__inform">
+                  <p class="activity__text">BAKERY <i class="fa-solid fa-circle-right"></i></p>
+                </div>
+              </div>
+            </li>
+            <li class="activity__item">
+              <div class="activity__base">
+                <!-- <picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./images/screen/screen2-1x.jpg 1x,
+                      ./images/screen/screen2-2x.jpg 2x
+                    "
+                  /> -->
+                  <img
+                    src="./images/take.jpg" width="365px" height="280px"
+                    alt="Людина вибирає додаток"
+                  />
+                </picture>
+                <div class="activity__inform">
+                  <p class="activity__text">TAKE OUT <i class="fa-solid fa-circle-right"></i></p>
+                </div>
+              </div>
+            </li>
+            <li class="activity__item">
+              <div class="activity__base">
+                <!-- <picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./images/screen/screen2-1x.jpg 1x,
+                      ./images/screen/screen2-2x.jpg 2x
+                    "
+                  /> -->
+                  <img
+                    src="./images/season.jpg" width="365px" height="280px"
+                    alt="Людина вибирає додаток"
+                  />
+                </picture>
+                <div class="activity__inform">
+                  <p class="activity__text">SEASONAL PRODUCTS <i class="fa-solid fa-circle-right"></i></p>
+                </div>
+              </div>
+            </li>
+            <li class="activity__item">
+              <div class="activity__base">
+                <!-- <picture>
+                  <source
+                    media="(min-width:1200px)"
+                    srcset="
+                      ./images/screen/screen2-1x.jpg 1x,
+                      ./images/screen/screen2-2x.jpg 2x
+                    "
+                  /> -->
+                  <img
+                    src="./images/per-bg.jpg" width="365px" height="280px"
+                    alt="Людина вибирає додаток"
+                  />
+                </picture>
+                <div class="activity__inform">
+                  <p class="activity__text">NON PERISHABLES <i class="fa-solid fa-circle-right"></i></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- -------------------WE DO ORDER FOR------------- -->
+      <section class="section section__customers" id="customers">
+  <div class="container customers__rev">
+    <h2 class="customers__title">We Do Order For</h2>
+    <!-- Try to add slide -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- add slide 1 -->
+
+        <article class="swiper-slide">
+          <h3 class="visually-hidden">Slide 1</h3>
+          <picture class="customers__pictures">
+            <!-- <source
+              srcset="
+                ./images/reviews/customer1-1x.png 1x,
+                ./images/reviews/customer1-2x.png 2x
+              "
+            /> -->
+            <img class="customer__img" src="./images/wedd.jpg" alt="girl1" />
+          </picture>
+          <div class="customers__wrap">
+            <div class="customers__view">
+              <p class="customers__text">
+             WEDINGS DAY
+              </p>
+            </div>
+          </div>
+        </article>
+
+        <!-- add slide 2 -->
+
+        <article class="swiper-slide">
+          <h3 class="visually-hidden">Slide 2</h3>
+
+          <picture class="customers__pictures">
+            <!-- <source
+              srcset="
+                ./images/reviews/customer2-1x.png 1x,
+                ./images/reviews/customer2-2x.png 2x
+              "
+            /> -->
+                  <img class="customer__img" src="./images/img11.jpg" alt="girl1" />
+          </picture>
+          <div class="customers__wrap">
+            <div class="customers__view">
+              <p class="customers__text">
+               BANQUETS PARTY
+              </p>
+            </div>
+          </div>
+
+        </article>
+
+        <!-- add slide 3 -->
+
+        <article class="swiper-slide">
+          <h3 class="visually-hidden">Slide 3</h3>
+          <picture class="customers__pictures">
+            <!-- <source
+              srcset="
+                ./images/reviews/customer3-1x.png 1x,
+                ./images/reviews/customer3-2x.png 2x
+              "
+            /> -->
+    <img class="customer__img" src="./images/img12.jpg" alt="girl1" />
+          </picture>
+          <div class="customers__wrap">
+            <div class="customers__view">
+              <p class="customers__text">
+               BIRTHDAYS PARTY
+              </p>
+            </div>
+          </div>
+       
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ----------------------------------OUR TOWARS SECTION---------------------- -->
+
+<section class="feature__section">
+        <div class="container">
+          <h2 class="">​OUR NITRATE FREE, GLUTEN FREE PRODUCTS ARE ALSO HORMONE AND ANTIBIOTIC FREE</h2>
+          <ul class="list feature__list">
+            <li class="feature__item">
+        <img src="./images/main-slides/img-1.png" alt="slide" width="220px" height="200px">
+            </li>
+            <li class="feature__item">
+        <img src="./images/main-slides/img-2.png" alt="slide" width="220px" height="200px">
+
+            </li>
+            <li class="feature__item">
+        <img  src="./images/main-slides/img-3.png" alt="slide" width="220px" height="200px">
+
+            </li>
+            <li class="feature__item">
+        <img src="./images/main-slides/img-4.png" alt="slide" width="220px" height="200px">
+            </li>
+                        <li class="feature__item">
+        <img src="./images/main-slides/img-5.png" alt="slide" width="220px" height="200px">
+
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- -------------------------OUR COSTUMERS------------------------- -->
+ <section class="clients section">
+        <div class="container">
+          <h2 class="clients__title">Companies with which we cooperate</h2>
+          <ul class="clients__list list">
+            <li class="clients__item">
+              <a href="https://norpacbeef.com/" class="clients__link">
+<img src="./images/liberterre-logo-2.png" class="img-family" width="120px" height="80px">
+              </a>
+            </li>
+            <li class="clients__item">
+              <a href="https://www.ontario.ca/foodland/foodland-ontario" class="clients__link">
+<img src="./images/family-farmed-label.png" class="img-family" width="80px" height="80px">
+              </a>
+            </li>
+            <li class="clients__item">
+              <a href="https://www.futurebakery.com/dairy" class="clients__link">
+                <img src="./images/foodland.jpg" class="img-family" width="auto" height="80px">
+              </a>
+            </li>
+            <li class="clients__item">
+              <a href="https://greenfieldmeat.com/fr/" class="clients__link">
+ <img src="./images/mc.png" class="img-family" width="120px" height="80px">
+              </a>
+            </li>
+            <li class="clients__item">
+              <a href="https://www.mramish.com/?add-to-cart=159" class="clients__link">
+<img src="./images/ami.jpg" class="img-family" width="80px" height="80px">
+              </a>
+            </li>
+            <li class="clients__item">
+              <a href="https://www.mramish.com/?add-to-cart=159" class="clients__link">
+<img src="./images/ami.jpg" class="img-family" width="80px" height="80px">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!-- ---------------------------FOOTER--------------------- -->
+    <footer>
+    <div class="footer">
+		<div class="inner-footer">
+
+			<div class="footer-items">
+				
+<img class="footer-pic" src="./images/main-logo.png" width="280px" height="130px" > 
+			</div>
+
+			<div class="footer-items">
+				<h2 class="footer-text">Quick Links</h2>
+				<div class="border"></div>
+				<ul class="footer-menu">
+					<a href="index.html"><li class="footer-links">Home</li></a>
+					<a href="about.html"><li class="footer-links">About Us</li></a>
+					<a href="menu.html"><li class="footer-links">Catering Menu</li></a>
+					<a href="events.html"><li class="footer-links">Special Events</li></a>
+          	<a href="rentals.html"><li class="footer-links">Rentals</li></a>
+            	<a href="news.html"><li class="footer-links">News Flayers</li></a>
+					<a href="contacts.html"><li class="footer-links">Contact</li></a>
+				</ul>
+			</div>
+
+			<div class="footer-items">
+				<h2 class="footer-text">Menu</h2>
+				<div class="border"></div>
+				<ul class="footer-menu">
+					<a href="appetizers.html"><li class="footer-links">Appetizers</li></a>
+					<a href="hot.html"><li class="footer-links">Entrees</li></a>
+					<a href="salads.html"><li class="footer-links">Salads and Sides</li></a>
+					<a href="soups.html"><li class="footer-links">Soups</li></a>
+          <a href="baking.html"><li class="footer-links">Desserts</li></a>
+          <a href="cake.html"><li class="footer-links">Cakes</li></a>
+					<a href="trays.html"><li class="footer-links">Trays</li></a>
+				</ul>
+			</div>
+
+			<div class="footer-items">
+				<h2 class="footer-text">Contact Us</h2>
+				<div class="border"></div>
+				<ul class="footer-menu">
+					<li><i class="fa fa-map-marker footer-icon" aria-hidden="true"></i>1575 Dundas St E, Mississauga ON</li>
+					<li><i class="fa fa-phone footer-icon"  aria-hidden="true"></i>(905) 625-9617</li>
+					<li><i class="fa fa-envelope footer-icon"  aria-hidden="true"></i>eddiesmeatanddelimarket@gmail.com</li>
+				</ul>
+				<div class="social-media">
+					<a href="https://www.facebook.com/Eddies-Meat-and-Deli-Market-113778758650751/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://eddiesmarket.ca/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+				</div>
+			</div>
+			
+		</div>
+		<div class="footer-bottom">
+			Copyright &copy; 2022
+		</div>
+	</div>
+  </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/toogle.js"></script>
+    <script src="./js/swiper.js"></script>
+  </body>
+</html>
