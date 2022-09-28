@@ -1767,7 +1767,7 @@ body {
 }
 
 .appet__link {
-  width: 260px;
+  width: 300px;
   height: 320px;
   display: block;
   text-decoration: none;
@@ -1779,9 +1779,38 @@ body {
   transition: box-shadow 250ms var(--timing-function);
 }
 
+@media screen and (min-width: 768px) {
+  .appet__link {
+    width: 260px;
+    height: 320px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .appet__link {
+    width: 260px;
+    height: 320px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+
 .appet__linked {
-  width: 260px;
-  height: 400px;
+  width: 300px;
+  height: 380px;
   display: block;
   text-decoration: none;
   margin-bottom: 30px;
@@ -1790,6 +1819,35 @@ body {
   /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
 
   transition: box-shadow 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) {
+  .appet__linked {
+    width: 260px;
+    height: 400px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .appet__linked {
+    width: 260px;
+    height: 400px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
 }
 
 /* .appet-list .appet-item:nth-child(3n) {
