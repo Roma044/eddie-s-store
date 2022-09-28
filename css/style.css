@@ -525,18 +525,22 @@ body {
   position: relative;
   z-index: 10;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 28px;
   line-height: 2.55;
   text-align: center;
   letter-spacing: 0.04em;
-
-  @media screen and(min-width:768px) {
+  color: var(--main-text-color);
+}
+@media screen and(min-width:768px) {
+  .customers__text {
     font-size: 14px;
     line-height: 2.16;
   }
+}
 
-  @media screen and(min-width:1280px) {
-    font-size: 16px;
+@media screen and(min-width:1280px) {
+  .customers__text {
+    font-size: 30px;
     line-height: 1.86;
   }
 }
@@ -556,10 +560,24 @@ body {
 }
 
 .customer__img {
-  width: 800px;
-  height: 400px;
+  width: 400px;
+  height: 300px;
+}
 
-  @media screen and(min-width:768px) {
+@media screen and (min-width: 768px) {
+  .customer__img {
+    width: 600px;
+    height: 380px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customer__img {
+    width: 800px;
+    height: 400px;
+  }
+}
+/* @media screen and(min-width:768px) {
+  .customer__img {
     width: 600px;
     height: 380px;
     padding-top: 37px;
@@ -567,8 +585,10 @@ body {
     padding-left: 51px;
     padding-right: 55px;
   }
+}
 
-  @media screen and(min-width:1280px) {
+@media screen and(min-width:1280px) {
+  .customer__img {
     width: 800px;
     height: 400px;
     padding-top: 32px;
@@ -576,7 +596,7 @@ body {
     padding-left: 106px;
     padding-right: 106px;
   }
-}
+} */
 
 /* .customers__name {
   position: relative;
@@ -957,12 +977,12 @@ body {
 /* --------------------------------------------MENU SECTION------------------------------ */
 .portfolio__section {
   padding-top: 60px;
-  padding-bottom: 60px;
+  /* padding-bottom: 60px; */
 }
 @media screen and (min-width: 1200px) {
   .portfolio__section {
     padding-top: 94px;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
   }
 }
 
@@ -1042,6 +1062,23 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+/* ---------------------------SLIDER MENU---------------------------- */
+.menu__img {
+  width: 400px;
+  height: 600px;
+}
+@media screen and (min-width: 768px) {
+  .menu__img {
+    width: 600px;
+    height: 800px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu__img {
+    width: 700px;
+    height: 900px;
+  }
+}
 /* -----------------------------------ABOUT PAGE---------------------------------- */
 .about-title {
   align-items: center;
