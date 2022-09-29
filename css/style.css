@@ -3085,3 +3085,203 @@ body {
   margin-top: 10px;
   margin-bottom: 20px;
 } */
+
+/* ---------------------------------------TRAYSE SECTION------------------------------ */
+
+.trays__section {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.trays__item .appet__link:hover,
+.trays__item .appet__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.trays__item:hover,
+.trays__item:focus {
+  transform: scale(1.1);
+}
+
+.trays img {
+  display: block;
+}
+
+.trays__item {
+  /* flex-basis: 370px; */
+  margin-right: 25px;
+
+  transition: transform 1s;
+}
+
+.trays__title {
+  color: var(--main-text-color);
+  margin-top: 20px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+
+  margin-bottom: 60px;
+}
+
+.trays__link {
+  width: 310px;
+  height: 320px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #7ff550 40%, #faf8f7 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+@media screen and (min-width: 768px) {
+  .trays__link {
+    width: 260px;
+    height: 340px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .trays__link {
+    width: 260px;
+    height: 320px;
+    display: block;
+
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #7ff550 40%, #faf8f7 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+
+.trays__linked {
+  width: 310px;
+  height: 380px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) {
+  .trays__linked {
+    width: 260px;
+    height: 370px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .trays__linked {
+    width: 260px;
+    height: 370px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+
+.trays__img {
+  width: 100%;
+  height: 200px;
+}
+/* .appet-list .appet-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.appet-list .appet-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+} */
+
+.trays__list .trays__text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* padding-right: 24px; */
+  /* padding-left: 24px; */
+
+  border: 1px solid var(--border-color);
+  border-top: transparent;
+}
+
+.trays__list {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.trays__list .trays__title {
+  margin-bottom: 4px;
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.trays__name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.trays__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 4 -30px);
+}
+
+.trays__list .trays__price .list {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.trays__price {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.trays__price-humb {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  border-radius: 20px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
