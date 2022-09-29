@@ -118,31 +118,27 @@ body {
   }
 }
 
-.navbar-nav li a {
+/* .navbar-nav li a {
   color: white !important;
+} */
+
+.navbar-nav,
+.nav-item a {
+  color: black;
 }
 
+.navbar-text + .navbar-text {
+  margin-left: 30px;
+}
 /* -------------------------Hero------------------------------ */
 .hero__page {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-top: 118px;
-  padding-bottom: 118px;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      right top,
-      from(rgba(47, 48, 58, 0.4)),
-      to(rgba(47, 48, 58, 0.4))
-    ),
-    url(../images/edie-bg.jpg);
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/head-mob.jpg);
+  padding-top: 350px;
+  padding-bottom: 100px;
+  background-image: url(../images/edie-bgmob.jpg);
+  background-image: url(../images/edie-bgmob@2x.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -152,38 +148,14 @@ body {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero__page {
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(rgba(47, 48, 58, 0.4)),
-        to(rgba(47, 48, 58, 0.4))
-      ),
-      url(../images/head-mob@2x.jpg);
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/head-mob@2x.jpg);
+    background-image: url(../images/edie-bgmob@2x.png);
+    background-image: url(../images/edie-bgmob@2x.png);
   }
 }
 @media screen and (min-width: 768px) {
   .hero__page {
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(rgba(47, 48, 58, 0.4)),
-        to(rgba(47, 48, 58, 0.4))
-      ),
-      url(../images/head-tabl.jpg);
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/head-tabl.jpg);
+    background-image: url(../images/edie-bgtabl.jpg);
+    background-image: url(../images/edie-bgtabl.jpg);
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
@@ -191,42 +163,19 @@ body {
   screen and (min-width: 768px) and (min-resolution: 192dpi),
   screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero__page {
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(rgba(47, 48, 58, 0.4)),
-        to(rgba(47, 48, 58, 0.4))
-      ),
-      url(../images/head-tabl@2x.jpg);
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/head-tabl@2x.jpg);
+    background-image: url(../images/edie-bgtabl@2x.png);
+    background-image: url(../images/edie-bgtabl@2x.png);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero__page {
-    padding-top: 200px;
+    padding-top: 500px;
     padding-bottom: 200px;
+    padding-left: 500px;
     max-width: 1600px;
-    min-height: 600px;
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(rgba(47, 48, 58, 0.4)),
-        to(rgba(47, 48, 58, 0.4))
-      ),
-      url(../images/head-desk.jpg);
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/head-desk.jpg);
+    min-height: 700px;
+    background-image: url(../images/edie-bg.jpg);
+    background-image: url(../images/edie-bg.jpg);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
@@ -234,20 +183,8 @@ body {
   screen and (min-width: 1200px) and (min-resolution: 192dpi),
   screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero__page {
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(rgba(47, 48, 58, 0.4)),
-        to(rgba(47, 48, 58, 0.4))
-      ),
-      url(../images/head-desk@2x.jpg);
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url(../images/head-desk@2x.jpg);
+    background-image: url(../images/edie-bgdesk@2x.png);
+    background-image: url(../images/edie-bgdesk@2x.png);
   }
 }
 
