@@ -1731,7 +1731,7 @@ body {
   width: 120px;
   height: 40px;
   border-radius: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   background-color: transparent;
   color: #121111;
 }
@@ -1913,6 +1913,11 @@ body {
 }
 
 /* ----------------------------------------ENTREES SECTION----------------------------- */
+
+.meat__section {
+  padding-top: 70px;
+}
+
 .entrees__title {
   text-align: center;
   margin-top: 40px;
@@ -1931,7 +1936,7 @@ body {
 .entrees__sub-text {
   color: var(--main-text-color);
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 55px;
   font-weight: bold;
   font-size: 34px;
@@ -2363,6 +2368,288 @@ body {
 }
 
 .pork__price {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* ----------------------------FISH SECTION------------------ */
+.fish__item .fish__link:hover,
+.fish__item .fish__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.fish__item:hover,
+.fish__item:focus {
+  transform: scale(1.1);
+}
+
+.fish__item {
+  /* flex-basis: 370px; */
+  margin-right: 65px;
+
+  transition: transform 1s;
+}
+
+.fish__link {
+  width: 310px;
+  height: 340px;
+  display: block;
+
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #7ff550 40%, #faf8f7 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) {
+  .fish__link {
+    width: 260px;
+    height: 340px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .fish__link {
+    width: 260px;
+    height: 340px;
+    display: block;
+
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #7ff550 40%, #faf8f7 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+
+.fish__list .fish__text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.fish__list .fish__title {
+  margin-bottom: 4px;
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.fish__name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.fish__list {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .fish__list {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .fish__list {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+}
+
+.fish__list .fish__price .list {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.fish__price-humb {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  border-radius: 20px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+}
+
+.fish__price {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.fish__img {
+  width: 100%;
+  height: 200px;
+}
+
+/* -------------------------------SALAD AND SLIDES SECTION--------------------- */
+.salat__title {
+  color: var(--main-text-color);
+  margin-top: 40px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 60px;
+}
+.salad__section {
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.salad__item .salad__link:hover,
+.salad__item .salad__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.salad__item:hover,
+.salad__item:focus {
+  transform: scale(1.1);
+}
+
+.salad img {
+  display: block;
+}
+
+.salad__item {
+  /* flex-basis: 370px; */
+  margin-right: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 1s;
+}
+
+.salad__link {
+  width: 310px;
+  height: 320px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) {
+  .salad__link {
+    width: 260px;
+    height: 320px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .salad__link {
+    width: 260px;
+    height: 320px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+
+/* .appet-list .appet-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.appet-list .appet-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+} */
+
+.salad__list .salad__text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* padding-right: 24px; */
+  /* padding-left: 24px; */
+
+  /* border: 1px solid var(--border-color);
+  border-top: transparent; */
+}
+
+.salad__img {
+  width: 100%;
+}
+
+.salad__list .salad__title {
+  margin-bottom: 4px;
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.salad__name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.salad__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 4 -30px);
+}
+
+.salad__list .salad__price .list {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.salad__price {
   color: var(--primary-white-color);
   text-align: center;
   font-size: 18px;
