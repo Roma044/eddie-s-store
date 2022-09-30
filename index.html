@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
         <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
@@ -43,12 +44,12 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Eddie's</title>
   </head>
   <body>
     <header>
       <div class="header-container">
-        <nav class="navbar  fixed-top navbar-expand-lg " style="background-color: #f8d68a;">
+        <nav class="navbar  fixed-top navbar-expand-lg ">
           <div class="container-fluid">
             <a href="/" class="logo"
               ><img
@@ -72,7 +73,7 @@
             <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav  me-auto mb-2 mb-lg-0" > 
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/"
+                  <a class="nav-link current" aria-current="page" href="/"
                     >Home</a
                   >
                 </li>
@@ -95,10 +96,10 @@
                   <a class="nav-link" href="contacts.html">Contacts</a>
                 </li>
               </ul>
-              <span class="navbar-text">
+              <span class="navbar-text"><i class="fa-solid fa-envelope"></i>
                 eddiesmeatanddelimarket@gmail.com
               </span>
-              <span class="navbar-text">
+              <span class="navbar-text"><i class="fa-solid fa-phone"></i>
                 905-625-9617
               </span>
             </div>
@@ -114,11 +115,12 @@
         </h1>
       </section>
       <!--What we do -->
-      <section class="project section">
+      <section class="project__section">
         <div class="container">
           <h2 class="activity__title">What can you find in our store?</h2>
           <ul class="activity__list list">
             <li class="activity__item">
+              <a href="deli.html">
               <div class="activity__base">
                 <!-- <picture>
                   <source
@@ -131,11 +133,13 @@
                   />
                 </picture>
                 <div class="activity__inform">
-                  <p class="activity__text">DELI <i class="fa-solid fa-circle-right"></i></p>
+                  <p class="activity__text">DELI <i class="fa-solid fa-circle-right"></i><p class="view__text">__View all</p></p>
                 </div>
               </div>
+              </a>
             </li>
             <li class="activity__item">
+              <a href="butcher.html">
               <div class="activity__base">
                 <!-- <picture>
                   <source
@@ -151,11 +155,13 @@
                   />
                 </picture>
                 <div class="activity__inform">
-                  <p class="activity__text">BUTCHER SHOP <i class="fa-solid fa-circle-right"></i></p>
+                  <p class="activity__text">BUTCHER SHOP <i class="fa-solid fa-circle-right"></i><p class="view__text">__View all</p></p>
                 </div>
               </div>
+              </a>
             </li>
             <li class="activity__item">
+              <a href="bakery.html">
               <div class="activity__base">
                 <!-- <picture>
                   <source
@@ -171,11 +177,13 @@
                   />
                 </picture>
                 <div class="activity__inform">
-                  <p class="activity__text">BAKERY <i class="fa-solid fa-circle-right"></i></p>
+                  <p class="activity__text">BAKERY <i class="fa-solid fa-circle-right"></i><p class="view__text">__View all</p></p>
                 </div>
               </div>
+              </a>
             </li>
             <li class="activity__item">
+               <a href="take.html">
               <div class="activity__base">
                 <!-- <picture>
                   <source
@@ -191,9 +199,10 @@
                   />
                 </picture>
                 <div class="activity__inform">
-                  <p class="activity__text">TAKE OUT <i class="fa-solid fa-circle-right"></i></p>
+                  <p class="activity__text">TAKE OUT <i class="fa-solid fa-circle-right"></i><p class="view__text">__View all</p></p>
                 </div>
               </div>
+              </a>
             </li>
             <li class="activity__item">
               <div class="activity__base">
@@ -211,7 +220,7 @@
                   />
                 </picture>
                 <div class="activity__inform">
-                  <p class="activity__text">SEASONAL PRODUCTS <i class="fa-solid fa-circle-right"></i></p>
+                  <p class="activity__text">SEASONAL PRODUCTS <i class="fa-solid fa-circle-right"></i><p class="view__text">__View all</p></p>
                 </div>
               </div>
             </li>
@@ -231,7 +240,7 @@
                   />
                 </picture>
                 <div class="activity__inform">
-                  <p class="activity__text">NON PERISHABLES <i class="fa-solid fa-circle-right"></i></p>
+                  <p class="activity__text">NON PERISHABLES <i class="fa-solid fa-circle-right"></i><p class="view__text">__View all</p></p>
                 </div>
               </div>
             </li>
@@ -453,7 +462,13 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+        
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./js/slidesection.js"></script>
     <script src="./js/toogle.js"></script>
     <script src="./js/swiper.js"></script>
   </body>

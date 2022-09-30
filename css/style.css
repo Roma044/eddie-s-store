@@ -127,9 +127,56 @@ body {
   color: black;
 }
 
+.navbar {
+  background: linear-gradient(
+    90deg,
+    rgba(248, 238, 215, 1) 0%,
+    rgba(248, 238, 215, 1) 0%,
+    rgba(248, 238, 215, 1) 100%
+  );
+}
+
 .navbar-text + .navbar-text {
   margin-left: 30px;
 }
+
+.nav-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.logo {
+  margin-right: 15px;
+}
+
+.navbar-text {
+  color: #121111;
+}
+
+.navbar-text:hover {
+  color: #ff6c00;
+  cursor: pointer;
+}
+
+/* .nav-link.current {
+  position: relative;
+} */
+.nav-link.current {
+  color: #ff6c00;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* .nav-link.current::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+} */
 /* -------------------------Hero------------------------------ */
 .hero__page {
   margin-left: auto;
@@ -216,9 +263,9 @@ body {
   margin-left: 10px;
 }
 
-.project {
-  padding-top: 40px;
-  padding-bottom: 94px;
+.project__section {
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .activity__title {
@@ -244,6 +291,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  cursor: pointer;
 }
 
 .activity__item:not(:last-child) {
@@ -284,15 +332,17 @@ body {
   color: var(--primary-white-color);
 }
 
+.view__text {
+  font-size: 12px;
+  color: var(--primary-white-color);
+  font-weight: 500;
+}
+
 /* .project {
   @media screen and (max-width: 1200px) {
     display: none;
   }
 } */
-
-.project {
-  padding-bottom: 94px;
-}
 
 .activity__title {
   color: var(--main-text-color);
@@ -337,7 +387,6 @@ body {
 
 /* -----------------------------------WE DO ORDER FOR------------------ */
 .section__customers {
-  padding-top: 80px;
   padding-bottom: 48px;
 
   @media screen and(min-width:768px) {
@@ -357,7 +406,7 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 
   @media screen and (min-width: 1200px) {
     font-size: 36px;
@@ -486,12 +535,15 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 32px;
-
-  @media screen and(min-width:768px) {
+}
+@media screen and(min-width:768px) {
+  .customers__pictures {
     margin-bottom: 20px;
   }
+}
 
-  @media screen and(min-width:1280px) {
+@media screen and(min-width:1280px) {
+  .customers__pictures {
     margin-bottom: 16px;
   }
 }
@@ -590,13 +642,13 @@ body {
 
 /* ----------------------------TOWAR SECTION---------------------- */
 .feature__section {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 @media screen and (min-width: 1200px) {
   .feature__section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 70px;
+    padding-bottom: 50px;
   }
 }
 
@@ -665,10 +717,17 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 @media screen and (min-width: 768px) {
   .feature__title {
-    text-align: start;
+    /* text-align: start; */
+    line-height: 1.4;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-text-color);
   }
 }
 
@@ -688,12 +747,12 @@ body {
 
 /* --------------------------------OUR CLIENTS-------------------------------- */
 .clients {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 @media screen and (min-width: 1200px) {
   .clients {
-    padding-top: 94px;
+    padding-top: 70px;
     padding-bottom: 94px;
   }
 }
@@ -913,7 +972,7 @@ body {
 
 /* --------------------------------------------MENU SECTION------------------------------ */
 .portfolio__section {
-  padding-top: 60px;
+  padding-top: 80px;
   /* padding-bottom: 60px; */
 }
 @media screen and (min-width: 1200px) {
@@ -926,8 +985,44 @@ body {
 .button__title.visually-hidden {
   visibility: hidden;
 }
-
 .button__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-bottom: 56px;
+}
+
+@media screen and (max-width: 767px) {
+  .button__list {
+    margin-top: -15px;
+    margin-left: -8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button__list {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button__item {
+    margin-top: 15px;
+    margin-left: 8px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button__item:not(:last-child) {
+    margin-right: 8px;
+  }
+}
+
+/* .button__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -966,7 +1061,7 @@ body {
   padding: 6px 22px;
   border: none;
   border-radius: 4px;
-}
+} */
 
 .button__main {
   color: var(--main-text-color);
@@ -1210,7 +1305,8 @@ body {
 
 @media screen and (min-width: 768px) {
   .events__list {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
 
@@ -3221,4 +3317,268 @@ body {
   border-radius: 20px;
   margin-top: 35px;
   margin-bottom: 20px;
+}
+
+/* -------------------------------------DELI PAGE-------------------------- */
+.deli__text {
+  margin-top: 70px;
+  text-align: center;
+  color: var(--main-text-color);
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 34px;
+  /* background: rgb(255, 252, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 252, 252, 1) 0%,
+    rgba(161, 251, 203, 1) 71%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
+  /* padding: 20px; */
+}
+
+/* -----------------------------BUTCHER SHOP------------------------ */
+.butcher__text {
+  text-align: center;
+  color: var(--main-text-color);
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 34px;
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(235, 228, 195, 1) 70%,
+    rgba(243, 245, 250, 1) 100%
+  ); */
+}
+
+/* START-SLIDER-SECTION */
+
+section {
+  padding: 4rem 0;
+}
+section.top-products {
+  background: #f0f0f0;
+}
+section.top-products .food-slider .food-card {
+  background: #fff;
+  padding: 1.5rem 0;
+  border-radius: 4px;
+}
+section.top-products .food-slider .food-card .product-image img {
+  width: 100%;
+  height: 200x;
+  padding-bottom: 20px;
+  /* object-fit: contain; */
+}
+section.top-products .food-slider .food-card h2 {
+  font-family: raleway-bold;
+  font-size: 1.3rem;
+  margin-bottom: 0.25rem;
+}
+section.top-products .food-slider .food-card .stars {
+  margin-bottom: 0.5rem;
+}
+section.top-products .food-slider .food-card .stars img {
+  margin-right: 0.25rem;
+}
+section.top-products .food-slider .food-card .price {
+  font-family: raleway-medium;
+  color: #fe4545;
+  margin-bottom: 1rem;
+}
+section.top-products .food-slider .food-card button {
+  font-family: raleway-medum;
+  color: #232b38;
+  background: #fff;
+  border: 2px solid #eebf00;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+section.top-products .food-slider .food-card button:hover {
+  background: #eebf00;
+  color: #fff;
+}
+.food-slider .food-card button img {
+  background: #eebf00;
+  padding: 0.5rem;
+  height: 32px;
+  margin-right: 1.2rem;
+}
+.slick-slide {
+  margin: 0 27px;
+}
+.slick-list {
+  margin: 0 -27px;
+}
+.top-products .slider-btn {
+  /* width: 30px;
+  height: 30px;
+  border: none;
+  background: #eebf00;
+
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none; */
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .top-products .slider-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #eebf00;
+
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .top-products .slider-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: #eebf00;
+
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+.prev-btn {
+  /* position: absolute;
+  top: 38%;
+  left: -3rem;
+  z-index: 1; */
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .prev-btn {
+    position: absolute;
+    top: 38%;
+    left: -3rem;
+    z-index: 1;
+  }
+}
+.next-btn {
+  /* position: absolute;
+  top: 38%;
+  right: -3rem;
+  z-index: 1; */
+  display: none;
+}
+@media screen and (min-width: 1280px) {
+  .next-btn {
+    position: absolute;
+    top: 38%;
+    right: -3rem;
+    z-index: 1;
+  }
+}
+.top-products .slider {
+  position: relative;
+}
+.top-products .btn-wrapper {
+  margin-top: 2rem;
+}
+.slick-track {
+  padding: 1rem 0;
+}
+
+.product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-picture {
+  width: 350px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .product-picture {
+    width: 650px;
+    height: 340px;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .product-picture {
+    width: 700px;
+    height: 350px;
+    border-radius: 5px;
+  }
+}
+
+/* .stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.magic-shadow-sm {
+  position: relative;
+  background: #fff;
+}
+.magic-shadow-sm::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 69px;
+  background-image: url(../icons/shadow-sm.svg);
+  position: absolute;
+  bottom: -22px;
+  background-repeat: no-repeat;
+  z-index: -1;
+  background-position: center;
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+/* END-SLIDER-SECTION */
+
+/* ----------------------------------------BAKERY PAGE------------------------- */
+.bakery__text {
+  text-align: center;
+  color: var(--main-text-color);
+  margin-top: 40px;
+  margin-bottom: 55px;
+  font-weight: bold;
+  font-size: 34px;
+  /* background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(8, 57, 4, 0.7455357142857143) 70%,
+    rgba(243, 245, 250, 1) 100%
+  ); */
+}
+
+/* --------------------------------------------TAKE OUT PAGE----------------------------------- */
+.take__text {
+  color: var(--color-1);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 34px;
+  /* background: rgb(255, 252, 252);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 252, 252, 1) 0%,
+    rgba(235, 175, 76, 1) 66%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
 }
