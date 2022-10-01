@@ -179,10 +179,10 @@ body {
 } */
 /* -------------------------Hero------------------------------ */
 .hero__page {
-  margin-left: auto;
+  /* margin-left: auto;
   margin-right: auto;
-  text-align: center;
-  padding-top: 350px;
+  text-align: center; */
+  padding-top: 500px;
   padding-bottom: 100px;
   background-image: url(../images/edie-bg.jpg);
   background-image: url(../images/edie-bgdesk@2x.png);
@@ -216,9 +216,9 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero__page {
-    padding-top: 500px;
+    padding-top: 550px;
     padding-bottom: 200px;
-    padding-left: 500px;
+    padding-left: 700px;
     max-width: 1600px;
     min-height: 600px;
     background-image: url(../images/edie-bg.jpg);
@@ -235,21 +235,91 @@ body {
   }
 }
 
+.card__hero {
+  width: 370px;
+  height: 100px;
+  background-color: rgb(224, 224, 224);
+  opacity: 0.75;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .card__hero {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(224, 224, 224);
+    opacity: 0.9;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .card__hero {
+    width: 800px;
+    height: 200px;
+    background-color: rgb(224, 224, 224);
+    opacity: 0.9;
+  }
+}
+
 .hero__title {
   font-weight: 900;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: 30px;
-  color: var(--primary-white-color);
+  color: #121111;
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 44px;
     line-height: 1.36;
   }
+}
+
+/* -----------------------------OGOLOS--------------------------- */
+.hcard-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--main-text-color);
+}
+.hcard-text {
+  font-size: 25px;
+  font-weight: bold;
+  color: var(--main-text-color);
+}
+.hcard-wish {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--main-text-color);
+  margin-top: 20px;
+}
+.hcard-hero {
+  width: 320px;
+  height: 200px;
+  /* display: flex; */
+  flex-direction: column;
+  margin-left: 00px;
+  border: 5px black solid;
+  background: linear-gradient(
+    90deg,
+    rgba(215, 248, 222, 1) 0%,
+    rgba(248, 238, 215, 1) 0%,
+    rgba(248, 238, 215, 1) 100%
+  );
+}
+.header-hcard {
+  height: 20%;
+  background: red;
+  color: white;
+  font-size: 24px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.hcard {
+  padding: 2px 16px;
 }
 
 /* -----------------------------------What can you find in our store?------------------------ */
@@ -668,6 +738,12 @@ body {
   border-radius: 4px;
 }
 
+.feature__list {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 @media screen and (min-width: 1200px) {
   .feature__list {
     margin-bottom: -30px;
@@ -889,8 +965,26 @@ body {
 .footer-menu {
   list-style: none;
   color: #fff;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.5px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-menu {
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-menu {
+    list-style: none;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+  }
 }
 
 .footer-menu a {
@@ -1094,7 +1188,8 @@ body {
 .button__main:hover,
 .button__main:focus {
   color: var(--primary-white-color);
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
+  background-color: rgb(255, 171, 44);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
     0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -1556,7 +1651,7 @@ body {
     margin-top: 20px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 3;
+    line-height: 2;
     letter-spacing: 0.03em;
     align-items: center;
     text-align: center;
