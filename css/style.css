@@ -1771,9 +1771,37 @@ body {
   width: 120px;
   height: 40px;
   border-radius: 50px;
-  margin-bottom: 30px;
+
   background-color: transparent;
   color: #121111;
+}
+@media screen and (min-width: 768px) {
+  .appet__button {
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #121111;
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .appet__button {
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: #121111;
+  }
 }
 
 .appet__button:hover {
@@ -3576,7 +3604,7 @@ section.top-products .food-slider .food-card button:hover {
 
 /* --------------------------------------------TAKE OUT PAGE----------------------------------- */
 .take__text {
-  color: var(--color-1);
+  color: var(--main-text-color);
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -3589,4 +3617,196 @@ section.top-products .food-slider .food-card button:hover {
     rgba(235, 175, 76, 1) 66%,
     rgba(255, 255, 255, 1) 100%
   ); */
+}
+
+/* ---------------------------------------------SEASON PAGE------------------------------------- */
+.season-section {
+  margin-bottom: 40px;
+}
+
+.season__title {
+  color: var(--main-text-color);
+  padding-top: 70px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.season__titled {
+  color: var(--main-text-color);
+  padding-top: 70px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.season__item .season__link:hover,
+.season__item .season__link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.season__item:hover,
+.season__item:focus {
+  transform: scale(1.1);
+}
+
+.season img {
+  display: block;
+}
+
+.season__item {
+  /* flex-basis: 370px; */
+  margin-right: 25px;
+
+  transition: transform 1s;
+}
+
+.season__link {
+  width: 310px;
+  height: 320px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) {
+  .season__link {
+    width: 260px;
+    height: 320px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .season__link {
+    width: 260px;
+    height: 320px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+
+.season__linked {
+  width: 310px;
+  height: 380px;
+  display: block;
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: black;
+  border: 2px solid var(--main-text-color);
+  /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+  transition: box-shadow 250ms var(--timing-function);
+}
+
+@media screen and (min-width: 768px) {
+  .season__linked {
+    width: 260px;
+    height: 400px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .season__linked {
+    width: 260px;
+    height: 405px;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: black;
+    border: 2px solid var(--main-text-color);
+    /* background: linear-gradient(to bottom left, #e0acb4 40%, #ffc39e 100%); */
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+
+/* .appet-list .appet-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.appet-list .appet-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+} */
+
+.season__list .season__text {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  /* padding-right: 24px; */
+  /* padding-left: 24px; */
+
+  /* border: 1px solid var(--border-color);
+  border-top: transparent; */
+}
+
+.season__img {
+  width: 100%;
+  height: 200px;
+}
+
+.season__list .season__title {
+  margin-bottom: 4px;
+  color: var(--main-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.season__name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.season__list {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 4 -30px);
+}
+
+.season__list .season__price .list {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.season__price {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
