@@ -1766,10 +1766,10 @@ body {
 
 .appet__button {
   margin-right: auto;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
-  width: 120px;
-  height: 40px;
+  width: 90px;
+  height: 35px;
   border-radius: 50px;
   margin-bottom: 20px;
   background-color: transparent;
@@ -3809,4 +3809,254 @@ section.top-products .food-slider .food-card button:hover {
   border-radius: 20px;
   margin-top: 10px;
   margin-bottom: 20px;
+}
+
+/* ------------------------------------------NON PERISHABLE PAGE---------------------------------- */
+.perishable__title {
+  color: var(--main-text-color);
+  padding-top: 70px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* --------------------------------------BIRTHDAY PAGE-------------------------------- */
+
+.birthday__section {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.birthday__title {
+  color: var(--main-text-color);
+  padding-top: 70px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.video__birthday {
+  width: 300px;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+  .video__birthday {
+    margin-right: 50px;
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video__birthday {
+    margin-right: 100px;
+    width: 600px;
+    height: 500px;
+  }
+}
+
+.birthday__img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .birthday__img {
+    width: 450px;
+    height: 400px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .birthday__img {
+    width: 740px;
+    height: 500px;
+    border-radius: 20px;
+  }
+}
+
+.birthday__container {
+  display: block;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .birthday__container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .birthday__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* ------------------------------------------WEDDING PAGE-------------------------------- */
+.wedding__section {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.wedding__title {
+  color: var(--main-text-color);
+  padding-top: 70px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.video__wedding {
+  width: 300px;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+  .video__wedding {
+    margin-right: 50px;
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video__wedding {
+    margin-right: 100px;
+    width: 600px;
+    height: 500px;
+  }
+}
+
+.wedding__img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .wedding__img {
+    width: 450px;
+    height: 400px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wedding__img {
+    width: 740px;
+    height: 500px;
+    border-radius: 20px;
+  }
+}
+
+.wedding__container {
+  display: block;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .wedding__container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .wedding__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* -----------------------------------------BANQUETS PAGE-------------------------------- */
+
+.banq__section {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.banq__title {
+  color: var(--main-text-color);
+  padding-top: 70px;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.video__banq {
+  width: 300px;
+  height: 400px;
+}
+@media screen and (min-width: 768px) {
+  .video__banq {
+    margin-right: 50px;
+    width: 500px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video__banq {
+    margin-right: 100px;
+    width: 600px;
+    height: 500px;
+  }
+}
+
+.banq__img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .banq__img {
+    width: 450px;
+    height: 400px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .banq__img {
+    width: 740px;
+    height: 500px;
+    border-radius: 20px;
+  }
+}
+
+.banq__container {
+  display: block;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .banq__container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .banq__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
