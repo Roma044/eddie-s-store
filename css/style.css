@@ -150,6 +150,15 @@ body {
 
 .navbar-text {
   color: #121111;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar-link {
+  text-decoration: none;
+}
+
+.navbar-link + .navbar-link {
+  margin-left: 30px;
 }
 
 .navbar-text:hover {
