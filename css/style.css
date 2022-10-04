@@ -184,8 +184,8 @@ body {
   text-align: center; */
   padding-top: 400px;
   padding-bottom: 100px;
-  background-image: url(../images/edie-bg.jpg);
-  background-image: url(../images/edie-bgdesk@2x.png);
+  background-image: url(../images/edie-bgphone.jpg);
+  background-image: url(../images/edie-bgphone.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -236,7 +236,7 @@ body {
 }
 
 .card__hero {
-  width: 370px;
+  width: 100%;
   height: 100px;
   background-color: rgb(224, 224, 224);
   opacity: 0.75;
