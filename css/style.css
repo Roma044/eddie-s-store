@@ -155,10 +155,35 @@ body {
 }
 .navbar-link {
   text-decoration: none;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .navbar-link {
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar-link {
+    text-decoration: none;
+  }
 }
 
 .navbar-link + .navbar-link {
-  margin-left: 30px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .navbar-link + .navbar-link {
+    text-decoration: none;
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .navbar-link + .navbar-link {
+    text-decoration: none;
+    margin-left: 30px;
+  }
 }
 
 .navbar-text:hover {
