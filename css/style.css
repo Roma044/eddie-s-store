@@ -217,7 +217,7 @@ body {
   margin-right: auto;
   text-align: center; */
   padding-top: 400px;
-  padding-bottom: 100px;
+  padding-bottom: 0px;
   background-image: url(../images/edie-bgphone.jpg);
   background-image: url(../images/bg-phone@2x.png);
   background-repeat: no-repeat;
@@ -250,11 +250,9 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero__page {
-    padding-top: 550px;
-    padding-bottom: 200px;
-    padding-left: 700px;
+    padding-left: 720px;
     max-width: 1550px;
-    min-height: 600px;
+    min-height: 400px;
     background-image: url(../images/edie-bg.jpg);
     background-image: url(../images/edie-bg.jpg);
   }
@@ -288,6 +286,7 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .card__hero {
+    padding-top: 10px;
     width: 800px;
     height: 200px;
     background-color: rgb(224, 224, 224);
@@ -307,7 +306,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
-    font-size: 44px;
+    font-size: 38px;
     line-height: 1.36;
   }
 }
