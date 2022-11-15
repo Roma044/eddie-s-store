@@ -4248,7 +4248,7 @@ section.top-products .food-slider .food-card button:hover {
 
 /* --------------------------------------Стрілка Вверх----------------------- */
 
-.scroll-up {
+/* .scroll-up {
   position: fixed;
   bottom: 30px;
   right: 30px;
@@ -4294,4 +4294,4 @@ section.top-products .food-slider .food-card button:hover {
   stroke: #ffa5ba;
   stroke-width: 4px;
   transition: 0.2s;
-}
+} */
