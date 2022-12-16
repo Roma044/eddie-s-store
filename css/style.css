@@ -1833,9 +1833,21 @@ body {
 
 .rent__item {
   /* flex-basis: 370px; */
-  margin-right: 30px;
 
   transition: transform 1s;
+}
+
+@media screen and (min-width: 768px) {
+  .rent__item {
+    /* flex-basis: 370px; */
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .rent__item {
+    /* flex-basis: 370px; */
+    margin-right: 30px;
+  }
 }
 
 .rent__title {
@@ -4500,3 +4512,79 @@ section.top-products .food-slider .food-card button:hover {
   stroke-width: 4px;
   transition: 0.2s;
 } */
+.arrow {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  z-index: 9;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow {
+    bottom: 30px;
+    right: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .arrow {
+    bottom: 30px;
+    right: 30px;
+  }
+}
+
+.arrow a {
+  height: 29px;
+  width: 27px;
+  text-align: center;
+  background: #1b1b1b;
+  display: block;
+  border-radius: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow a {
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #1b1b1b;
+    display: block;
+    border-radius: 3px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .arrow a {
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background: #1b1b1b;
+    display: block;
+    border-radius: 3px;
+  }
+}
+
+.arrow a span {
+  color: #f2f2f2;
+  font-size: 18px;
+  line-height: 30px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .arrow a span {
+    color: #f2f2f2;
+    font-size: 25px;
+    line-height: 39px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .arrow a span {
+    color: #f2f2f2;
+    font-size: 25px;
+    line-height: 39px;
+    cursor: pointer;
+  }
+}
