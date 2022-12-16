@@ -2047,7 +2047,7 @@ body {
 
 .appet__link {
   width: 340px;
-  height: 320px;
+  height: 330px;
   display: block;
   text-decoration: none;
   margin-bottom: 30px;
@@ -2088,7 +2088,7 @@ body {
 }
 
 .appet__linked {
-  width: 310px;
+  width: 340px;
   height: 380px;
   display: block;
   text-decoration: none;
@@ -2149,7 +2149,7 @@ body {
 
 .appet__img {
   width: 100%;
-  height: 200px;
+  height: 210px;
 }
 
 .appet__list .appet__title {
@@ -2244,7 +2244,7 @@ body {
 }
 
 .entrees__link {
-  width: 310px;
+  width: 340px;
   height: 340px;
   display: block;
 
@@ -2366,8 +2366,8 @@ body {
 }
 
 .beef__link {
-  width: 310px;
-  height: 340px;
+  width: 340px;
+  height: 355px;
   display: block;
 
   text-decoration: none;
@@ -2483,7 +2483,7 @@ body {
 
 .beef__img {
   width: 100%;
-  height: 200px;
+  height: 220px;
 }
 
 /* ---------------------------PORK SECTION---------------------- */
@@ -2520,8 +2520,8 @@ body {
 }
 
 .pork__link {
-  width: 310px;
-  height: 320px;
+  width: 340px;
+  height: 330px;
   display: block;
   text-decoration: none;
   margin-bottom: 30px;
@@ -2562,7 +2562,7 @@ body {
 }
 
 .pork__linked {
-  width: 310px;
+  width: 340px;
   height: 380px;
   display: block;
   text-decoration: none;
@@ -2615,7 +2615,7 @@ body {
 
 .pork__img {
   width: 100%;
-  height: 200px;
+  height: 210px;
 }
 
 .pork__list .pork__title {
@@ -2657,6 +2657,17 @@ body {
   margin-bottom: 20px;
 }
 
+.pork__price-hamb {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 /* ----------------------------FISH SECTION------------------ */
 .fish__item .fish__link:hover,
 .fish__item .fish__link:focus {
@@ -2677,8 +2688,8 @@ body {
 }
 
 .fish__link {
-  width: 310px;
-  height: 340px;
+  width: 340px;
+  height: 350px;
   display: block;
 
   text-decoration: none;
@@ -2794,7 +2805,7 @@ body {
 
 .fish__img {
   width: 100%;
-  height: 200px;
+  height: 210px;
 }
 
 /* -------------------------------SALAD AND SLIDES SECTION--------------------- */
@@ -2837,8 +2848,8 @@ body {
 }
 
 .salad__link {
-  width: 310px;
-  height: 320px;
+  width: 340px;
+  height: 330px;
   display: block;
   text-decoration: none;
   margin-bottom: 30px;
@@ -2898,6 +2909,7 @@ body {
 
 .salad__img {
   width: 100%;
+  height: 220px;
 }
 
 .salad__list .salad__title {
@@ -2936,6 +2948,16 @@ body {
   background-color: var(--main-text-color);
   border-radius: 20px;
   margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.salad__price-hamb {
+  color: var(--primary-white-color);
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid var(--main-text-color);
+  background-color: var(--main-text-color);
+  border-radius: 20px;
   margin-bottom: 20px;
 }
 
@@ -2979,8 +3001,8 @@ body {
 }
 
 .soup__link {
-  width: 310px;
-  height: 320px;
+  width: 340px;
+  height: 330px;
   display: block;
 
   text-decoration: none;
@@ -3079,7 +3101,7 @@ body {
 
 .soup__img {
   width: 100%;
-  height: 200px;
+  height: 210px;
 }
 
 /* --------------------------DESSERTS SECTIONS------------------- */
@@ -3123,8 +3145,8 @@ body {
 }
 
 .dessert__link {
-  width: 310px;
-  height: 320px;
+  width: 340px;
+  height: 340px;
   display: block;
 
   text-decoration: none;
@@ -3223,7 +3245,7 @@ body {
 
 .dessert__img {
   width: 100%;
-  height: 200px;
+  height: 210px;
 }
 
 /* ----------------------------CAKES SECTION-------------------- */
@@ -3265,7 +3287,7 @@ body {
 }
 
 .cake__link {
-  width: 310px;
+  width: 340px;
   display: block;
   text-decoration: none;
   margin-bottom: 30px;
@@ -3405,8 +3427,8 @@ body {
 }
 
 .trays__link {
-  width: 310px;
-  height: 320px;
+  width: 340px;
+  height: 330px;
   display: block;
   text-decoration: none;
   margin-bottom: 30px;
@@ -3447,7 +3469,7 @@ body {
 }
 
 .trays__linked {
-  width: 310px;
+  width: 340px;
   height: 380px;
   display: block;
   text-decoration: none;
@@ -3490,7 +3512,7 @@ body {
 
 .trays__img {
   width: 100%;
-  height: 200px;
+  height: 210px;
 }
 /* .appet-list .appet-item:nth-child(3n) {
   margin-right: 0;
