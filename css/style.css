@@ -1168,6 +1168,7 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-top: 15px;
   }
 }
 
@@ -1181,6 +1182,7 @@ body {
 @media screen and (min-width: 768px) {
   .button__item:not(:last-child) {
     margin-right: 8px;
+    margin-bottom: 10px;
   }
 }
 
@@ -2061,7 +2063,7 @@ body {
 @media screen and (min-width: 768px) {
   .appet__link {
     width: 260px;
-    height: 320px;
+    height: 350px;
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
@@ -2075,7 +2077,7 @@ body {
 @media screen and (min-width: 1280px) {
   .appet__link {
     width: 260px;
-    height: 320px;
+    height: 350px;
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
@@ -2103,7 +2105,7 @@ body {
 @media screen and (min-width: 768px) {
   .appet__linked {
     width: 260px;
-    height: 400px;
+    height: 435px;
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
@@ -2117,7 +2119,7 @@ body {
 @media screen and (min-width: 1280px) {
   .appet__linked {
     width: 260px;
-    height: 405px;
+    height: 435px;
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
@@ -2863,7 +2865,7 @@ body {
 @media screen and (min-width: 768px) {
   .salad__link {
     width: 260px;
-    height: 320px;
+    height: 330px;
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
@@ -2877,7 +2879,7 @@ body {
 @media screen and (min-width: 1280px) {
   .salad__link {
     width: 260px;
-    height: 320px;
+    height: 330px;
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
@@ -3017,7 +3019,7 @@ body {
 @media screen and (min-width: 768px) {
   .soup__link {
     width: 260px;
-    height: 320px;
+    height: 330px;
     display: block;
 
     text-decoration: none;
@@ -3032,7 +3034,7 @@ body {
 @media screen and (min-width: 1280px) {
   .salad__link {
     width: 260px;
-    height: 320px;
+    height: 330px;
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
@@ -3161,7 +3163,7 @@ body {
 @media screen and (min-width: 768px) {
   .dessert__link {
     width: 260px;
-    height: 340px;
+    height: 350px;
     display: block;
     text-decoration: none;
     margin-bottom: 30px;
@@ -3175,7 +3177,7 @@ body {
 @media screen and (min-width: 1280px) {
   .dessert__link {
     width: 260px;
-    height: 340px;
+    height: 350px;
     display: block;
 
     text-decoration: none;
