@@ -2047,7 +2047,7 @@ body {
 
 .appet__link {
   width: 340px;
-  height: 330px;
+  height: 350px;
   display: block;
   text-decoration: none;
   margin-bottom: 30px;
@@ -2089,7 +2089,7 @@ body {
 
 .appet__linked {
   width: 340px;
-  height: 380px;
+  height: 400px;
   display: block;
   text-decoration: none;
   margin-bottom: 30px;
@@ -2149,7 +2149,7 @@ body {
 
 .appet__img {
   width: 100%;
-  height: 210px;
+  height: 235px;
 }
 
 .appet__list .appet__title {
