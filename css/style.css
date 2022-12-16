@@ -218,8 +218,8 @@ body {
 .open-time-sign {
   position: absolute;
   top: 80px;
-  left: 20px;
-  width: 305px;
+  left: 2px;
+  width: 255px;
   height: 240px;
 }
 @media screen and (min-width: 768px) {
@@ -232,10 +232,10 @@ body {
 }
 @media screen and (min-width: 1280px) {
   .open-time-sign {
-    top: 80px;
-    left: 20px;
+    top: 120px;
+    left: 50px;
     width: 365px;
-    height: 320px;
+    height: 370px;
   }
 }
 
@@ -331,7 +331,8 @@ body {
   margin-bottom: 30px;
   color: #121111;
 }
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1280px) {
   .hero__title {
     font-size: 38px;
     line-height: 1.36;
