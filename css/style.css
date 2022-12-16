@@ -214,6 +214,31 @@ body {
   background-color: var(--accent-color);
 } */
 /* -------------------------Hero------------------------------ */
+
+.open-time-sign {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  width: 305px;
+  height: 240px;
+}
+@media screen and (min-width: 768px) {
+  .open-time-sign {
+    top: 40px;
+    left: 20px;
+    width: 365px;
+    height: 320px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .open-time-sign {
+    top: 80px;
+    left: 20px;
+    width: 365px;
+    height: 320px;
+  }
+}
+
 .hero__page {
   /* margin-left: auto;
   margin-right: auto;
@@ -273,7 +298,7 @@ body {
   width: 100%;
   height: 100px;
   background-color: rgb(224, 224, 224);
-  opacity: 0.75;
+  opacity: 0.9;
   align-items: center;
   justify-content: center;
   text-align: center;
