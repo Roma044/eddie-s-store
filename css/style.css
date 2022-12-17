@@ -1233,6 +1233,7 @@ body {
 } */
 
 .button__main {
+  border-radius: 15px;
   color: var(--main-text-color);
   background-color: #f8d68a;
   font-family: inherit;
