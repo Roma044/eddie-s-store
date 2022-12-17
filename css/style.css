@@ -1995,6 +1995,45 @@ body {
   margin-bottom: 50px;
 }
 
+.find__button {
+  margin-right: auto;
+  font-size: 12px;
+  font-weight: bold;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #121111;
+}
+@media screen and (min-width: 768px) {
+  .find__button {
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: #121111;
+
+    transition: box-shadow 250ms var(--timing-function);
+  }
+}
+@media screen and (min-width: 1280px) {
+  .find__button {
+    margin-right: auto;
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: #121111;
+  }
+}
+
 .appet__button {
   margin-right: auto;
   font-size: 12px;
@@ -2002,6 +2041,7 @@ body {
   width: 100px;
   height: 40px;
   border-radius: 50px;
+  margin-bottom: 20px;
   background-color: transparent;
   color: #121111;
 }
